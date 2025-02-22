@@ -1,0 +1,82 @@
+.order-item {
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+    padding: 1rem;
+  }
+  
+  .order-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .order-id {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .order-date,
+  .order-time {
+    font-size: 1rem;
+  }
+  
+  .order-body {
+    margin-top: 1rem;
+  }
+  
+  .order-address {
+    margin-bottom: 1rem;
+    font-size: 1rem;
+  }
+  
+  .order-status {
+    font-weight: bold;
+    color: #333;
+    
+  }
+  
+  
+  .order-amount {
+    font-weight: bold;
+    margin-top: 0.1rem;
+  }
+  
+  .badge {
+    margin-right: 0.5rem;
+    font-size: 0.875rem;
+    text-transform: capitalize;
+  }
+  
+  .badge-primary {
+    background-color: #007bff;
+  }
+  
+  .badge-secondary {
+    background-color: #6c757d;
+  }
+  
+  .badge-success {
+    background-color: #28a745;
+  }
+  
+  .badge-danger {
+    background-color: #dc3545;
+  }
+  
+  .badge-warning {
+    background-color: #ffc107;
+  }
+  
+  .badge-info {
+    background-color: #17a2b8;
+  }
+  
+    .badge-light {
+        background-color: #f8f9fa;
+    }
+
+    
+    
+  

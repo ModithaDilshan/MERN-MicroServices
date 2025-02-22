@@ -1,0 +1,66 @@
+.product-list-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.product-card {
+  margin: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 250px;
+  height: 400px; /* Set a fixed height for the product cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 3px 5px rgba(105, 111, 105, 0.138); /* Add embossed shadow effect */
+  transition: box-shadow 0.3s ease; /* Add transition effect for hover */
+}
+
+.product-card:hover {
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15), 0 5px 9px rgba(4, 234, 4, 0.757); /* Update box shadow on hover */
+}
+
+.product-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.product-card .product-details {
+  padding: 10px;
+}
+
+.product-card .product-name {
+  margin: 10px;
+  font-size: 1rem;
+  color: rgb(115, 113, 113);
+  text-decoration: none;
+  text-transform: capitalize; /* Converts the first letter of each word to uppercase */
+}
+
+.product-card p {
+  margin: 10px;
+  font-size: 1.2rem;
+  color: rgb(145, 144, 144);
+  text-decoration: none;
+}
+
+.product-card .product-price {
+  font-weight: bold;
+  color: rgb(7, 105, 41);
+  text-decoration: none;
+}
+
+.product-card .product-quantity {
+  color: #88a294;
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+.product-card-link {
+  text-decoration: none;
+}

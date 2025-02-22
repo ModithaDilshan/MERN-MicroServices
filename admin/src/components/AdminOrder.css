@@ -1,0 +1,62 @@
+/* Add these CSS styles to your component or external CSS file */
+
+/* Container styles */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  /* Table styles */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  /* Status select styles */
+  select {
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  /* Order items list styles */
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* No orders message styles */
+  .no-orders {
+    margin-top: 20px;
+    font-style: italic;
+    color: #888;
+  }
+  
